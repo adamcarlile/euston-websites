@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
     lib/euston-websites/api_command_request_parsing/abstract_parser.rb
     lib/euston-websites/api_command_request_parsing/batch_parser.rb
     lib/euston-websites/api_command_request_parsing/discrete_parser.rb
+    lib/euston-websites/api_version.rb
     lib/euston-websites/version.rb
   ]
   # = MANIFEST =
