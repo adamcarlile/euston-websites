@@ -11,7 +11,6 @@ Gem::Specification.new do |s|
   # = MANIFEST =
   s.files = %w[
     Gemfile
-    Gemfile.lock
     Rakefile
     euston-websites.gemspec
     lib/euston-websites.rb
