@@ -9,7 +9,11 @@ module ApiCommandRequestParsing
     end
 
     def transform_hash_to_commands hash
-      command = @command_type.new hash.recursive__symbolize__keys!
+      hash = hash.recursive__symbolize__keys!
+
+      callback :preparing_hash, hash
+
+      command = @command_type.new hash
       command.id = @command_id
       command
     end
